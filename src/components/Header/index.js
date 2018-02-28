@@ -4,26 +4,24 @@ import Link from 'gatsby-link'
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: '#262220',
       marginBottom: '1.45rem',
     }}
   >
-    <div
+    <div className="container"
       style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
+        padding: '1.45rem 0rem',
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <h1 style={{ margin: 0, color: '#bfb8aa' }}>
         <Link
           to="/"
           style={{
-            color: 'white',
+            color: '#BFB8AA',
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Portrait Studio
         </Link>
       </h1>
     </div>
